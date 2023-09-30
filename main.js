@@ -667,8 +667,8 @@ async function main() {
 	const url = new URL(
 		// "nike.splat",
 		// location.href,
-		params.get("url") || "train.splat",
-		"https://huggingface.co/cakewalk/splat-data/resolve/main/",
+		params.get("url") || "patrick.splat",
+		"https://huggingface.co/shaunl-666/splat/resolve/main/",
 	);
 	const req = await fetch(url, {
 		mode: "cors", // no-cors, *cors, same-origin
